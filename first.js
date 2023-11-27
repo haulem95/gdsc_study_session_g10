@@ -1,4 +1,9 @@
-const mass = prompt("Enter your mass: ");
-const height = prompt ("Enter your height: ");
-const bmi = mass / (height * height); 
-console.log(`Your BMI is ${bmi}`);
+function Bmicalculator(height , weight){
+    const Bmi = weight/(height**2);
+    return Bmi
+}
+const height =prompt('what is your height');
+const weight =prompt('what is your weight' );
+
+BMI = Bmicalculator(height, weight)
+console.log(BMI);
