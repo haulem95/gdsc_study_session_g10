@@ -1,13 +1,9 @@
-function OddPattern(num) {
-
-  for (let i = 0; i <= num; i++) {
+function oddNumPattern(number) {
+  for (let i = 1; i <= number; i++) {
     if (i % 2 !== 0) {
-      let pattern = '';
-      for (let j = 1; j <= i; j += 2) {
-        pattern += j + ' ';
-      }
-      console.log(pattern);
+      console.log(i);
     }
   }
 }
-OddPattern(9);
+
+oddNumPattern(30);
